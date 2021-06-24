@@ -4,47 +4,36 @@ Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This describe multiple ways to use environment variables in your spring boot project.
+It's a great way to use secrets in your application without storing the secrets in source control.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Requires an environment variable be created to test
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Setup IntelliJ with the environment variable "MYENVVAR"
+* Open "Edit Configurations" dialog > Expand "Environement" > Add new environment variable "MYENVVAR"
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Run program to see environment variables outputed to console window
+
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If no environment variables are displaying or the default is displaying remember to setup the environment variables
+in your IDE.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+@dedjer
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
